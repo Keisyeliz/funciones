@@ -1,5 +1,8 @@
 
+import os
 def saludo():
     nombreStr = input('Ingrese su nombre -> ')
-    print('Hola', nombreStr)
+    os.system('cls')
+
+    print('¡Hola', nombreStr,'!')
 saludo()
