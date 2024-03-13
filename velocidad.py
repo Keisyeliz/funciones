@@ -17,9 +17,9 @@ def fnt_menu(repetir):
         if  opcionStr == 'F' or opcionStr == 'f':
             repetir = False
         else:
-            if int (opcionStr) >= 1 and int (opcionStr) <= 4 :
-                numero1Flt = float(input('Ingrese el primer número -> '))
-                numero2Flt = float(input('Ingrese el segundo número -> '))
+            if int (opcionStr) >= 1 and int (opcionStr) < 4 :
+                numero1Flt = float(input('Ingrese el primer valor -> '))
+                numero2Flt = float(input('Ingrese el segundo valor -> '))
                 fnt_operaciones(numero1Flt,numero2Flt,opcionStr)
             else: 
                 print('\n Opción incorrecta')
